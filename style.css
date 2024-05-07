@@ -51,6 +51,22 @@ h1{
 }
 
 
+#rainbow{
+  font-size: 1.2em;
+  font-weight: 700;
+  background: linear-gradient(90deg,red,orange, yellow, green, blue, white);
+  background-size: 17%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: rgba(0, 0, 0, 0.2);
+  transition: all 1s;
+  text-align:center;
+  
+}
+#rainbow:hover{
+  background-position: -17%;
+  color: white;
+}
 video
 {
     position: absolute;
